@@ -1,24 +1,28 @@
-let quote1, quote2, quote3, quote4, quote5, quote6, quote7, quote8, quote9, quote10, quote11, quote12, quote13, quote14, quote15, quote16, quote17, quote18, quote19, quote20;
+const quoteData = [{id: 1, name: "Bruce Lee", quote: "The successful warrior is the average man, with laser-like focus."}, 
+{id : 2, name: "Lao Tzu", quote:"The journey of a thousand miles begins with one step"},
+{id: 3, name: "Aristotle", quote: "We are what we repeatedly do. Excellence, then, is not an act, but a habit."},
+{id: 4 , name: "Leo Tolstoy", quote: "If you want to be happy, be."},
+{id: 5 , name: "James Keller", quote: "A candle loses nothing by lighting another."},
+{id: 6 , name: "Ernest Hemingway", quote: "There is nothing noble in being superior to your fellow men, true nobility is being superior to your former self."},
+{id: 7, name: "John Shedd", quote: "Ships are safe in harbor, but that’s not what ships were built for."},
+{id: 8, name: "Dylan Thomas", quote: "Do not go gentle into that good night. Rage, rage against the dying of light."},
+{id: 9, name: "Kurt Vonnegut", quote: "Those who believe in telekinetics, raise my hand."},
+{id: 10, name: "Leonardo Da Vinci", quote: "It had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. They went out and happened to things."},
+{id: 11, name: "Albert Einstein", quote: "I don't know what world war 3 will be fought with, but I know that WW4 will be fought with sticks and stones"},
+{id: 12, name: "Pablo Picasso", quote: "When I was a child, my mother said to me, 'If you become a soldier, you'll be a general. If you become a monk you'll end up as the pope.' Instead i became a painter and wound up as Picasso."},
+{id: 13, name: "Greek proverb", quote: "A society grows great when old men plant trees whose shade they know they shall never sit in."},
+{id: 14, name: "Jonathan Lockwood Huie", quote: "Forgive others, not because they deserve forgiveness, but because you deserve peace."},
+{id: 15, name: "Stephen McCranie", quote: "The master has failed more times than the beginner has even tried."},
+{id: 16, name: "Edgar Allan Poe", quote: "Years of love have been forgot, in the hatred of a minute."},
+{id: 17, name: "Plato", quote: "The measure of a man is what he does with power."},
+{id: 18, name: "Oscar Wilde", quote: "Every saint has a past, and every sinner has a future."},
+{id: 19, name: "Oscar Wilde", quote: "We are all in the gutter, but some of us are looking at the stars."},
+{id: 20, name: "Antoine de Saint-Exupéry", quote: "If you want to build a ship, don’t drum up the men to gather wood, divide the work and give orders. Instead, teach them to yearn for the vast and endless sea."}
 
-quote1 = "If you want to build a ship, don’t drum up the men to gather wood, divide the work and give orders. Instead, teach them to yearn for the vast and endless sea. <br> - Antoine de Saint-Exupéry"
-quote2 = "We are what we repeatedly do. Excellence, then, is not an act, but a habit. <br>- Aristotle"
-quote3 = 'We are all in the gutter, but some of us are looking at the stars. <br>- Oscar Wilde'
-quote4 = "Every saint has a past, and every sinner has a future. <br> – Oscar Wilde"
-quote5 = "The measure of a man is what he does with power <br>-Plato"
-quote6 = "Years of love have been forgot, in the hatred of a minute <br>- Edgar Allan Poe"
-quote7 = "The master has failed more times than the beginner has even tried.<br> - Stephen McCranie"
-quote8 = "Forgive others, not because they deserve forgiveness, but because you deserve peace.<br> -Jonathan Lockwood Huie"
-quote9 = "A society grows great when old men plant trees whose shade they know they shall never sit in. <br>- Greek proverb"
-quote10 = "When I was a child, my mother said to me, 'If you become a soldier, you'll be a general. If you become a monk you'll end up as the pope.' Instead i became a painter and wound up as Picasso. <br>- Pablo Picasso"
-quote11 = "Do not go gentle into that good night. Rage, rage against the dying of light. <br>- Dylan Thomas"
-quote12 = "I don't know what world war 3 will be fought with, but I know that WW4 will be fought with sticks and stones <br>- Albert Einstein"
-quote13 = "Ships are safe in harbor, but that’s not what ships were built for. <br>- John Shedd"
-quote14 = "There is nothing noble in being superior to your fellow men, true nobility is being superior to your former self <br>- Ernest Hemingway"
-quote15 = "A candle loses nothing by lighting another. <br>- James Keller."
-quote16 = "It had long since come to my attention that people of accomplishment rarely sat back and let things happen to them. They went out and happened to things. <br>- Leonardo Da Vinci"
-quote17 = "If you want to be happy, be. <br>- Leo Tolstoy"
-quote18 = "The successful warrior is the average man, with laser-like focus. <br>- Bruce Lee"
-quote19 = "Those who believe in telekinetics, raise my hand. <br>- Kurt Vonnegut"
-quote20 = "The journey of a thousand miles begins with one step.” <br>- Lao Tzu"
+]
 
-const quoteArray = [quote1, quote2, quote3, quote4, quote5, quote6, quote7, quote8, quote9, quote10, quote11, quote12, quote13, quote14, quote15, quote16, quote17, quote18, quote19, quote20];
+/* Sample object form
+
+{id: 20, name: "", quote: ""}
+
+*/
