@@ -11,11 +11,11 @@ function giveMeAQuote (){
 let text = document.querySelector('.quote');
 let name = document.querySelector('.author');
 
-text.innerHTML = giveMeAQuote ();
+text.innerHTML = giveMeAQuote();
 name.innerHTML = quoteData[numberGenerator].name;
 
 let button = document.querySelector('.button');
-let button2 = document.querySelector('.wrapper1');
+// let button2 = document.querySelector('.wrapper1');
 
 button.addEventListener('click', () => window.location.reload());
 button2. addEventListener('click', () => name.classList.toggle('hidden'))

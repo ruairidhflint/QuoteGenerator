@@ -26,3 +26,7 @@ const quoteData = [{id: 1, name: "Bruce Lee", quote: "The successful warrior is 
 {id: 20, name: "", quote: ""}
 
 */
+
+const inspectorData = [{name: "Sheila", quote:"You're squiffy"}, {name: "The Inspector", quote: "We are members of one body. We are responsible for each other."}, {
+    name: "Mr. Birling", quote: "I don't propose to give you much more rope"}, {name: "Eric", quote: "I don't know - really. Suddenly I felt I just had to laugh."},
+    {name: "Gerald", quote: "The girl saw me looking at her and then gave me a glance that was nothing less than a cry for help."}, {name: "The Inspector", quote: "Her position now is that she lies with a burnt out inside on a slab."} ]

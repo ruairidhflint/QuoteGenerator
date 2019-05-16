@@ -51,7 +51,7 @@ table {
 
 body {
     margin: 0 auto;
-    width: 800px;
+    width: 900px;
     font-family: 'Baloo Bhai', cursive;
 }
 .container {
@@ -61,10 +61,11 @@ body {
     align-items: center;
     justify-content: space-evenly;
     font-size: 3rem;
-    height: 300px;
+    height: 350px;
     border: 1px solid lightgrey;
-    border-radius: 2rem;
-    margin: 5rem;
+    border-radius: 2rem;    
+    margin: 8rem;
+    background-color: white;
 
 }
 
@@ -77,7 +78,7 @@ body {
 
 .author {
     display: inline-block;
-    color: rgb(250, 45, 80);
+    color: rgb(184, 48, 48);
     font-size: 2rem;
 }
 
@@ -109,3 +110,10 @@ body {
 .hidden {
     display: none;
 }
+/* .one{
+    border: 1px solid lightgray;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: rgb(218, 218, 218);
+    border-radius: 2rem;    
+} */
