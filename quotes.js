@@ -1,5 +1,4 @@
 
-
 const quoteData = [{id: 1, name: "Bruce Lee", quote: "The successful warrior is the average man, with laser-like focus."}, 
 {id : 2, name: "Lao Tzu", quote:"The journey of a thousand miles begins with one step"},
 {id: 3, name: "Aristotle", quote: "We are what we repeatedly do. Excellence, then, is not an act, but a habit."},
@@ -34,8 +33,13 @@ const quoteData = [{id: 1, name: "Bruce Lee", quote: "The successful warrior is 
 {id: 32, name: "Charles Bukowski", quote: "Slavery was never abolished, it was only extended to include all the colors." },
 {id: 33, name: "Mark Twain", quote: "I have never let my schooling interfere with my education." },
 {id: 34, name: "Benjamin Franklin", quote: "Well done is better than well said." },
-{id: 35, name: "Marcel Proust", quote: "The only paradise is paradise lost." }
-
+{id: 35, name: "Marcel Proust", quote: "The only paradise is paradise lost." },
+{id: 36, name: "Seneca", quote: "We are always complaining that our days are few, and acting as though there would be no end of them." },
+{id: 37, name: "Seneca", quote: "The bravest sight in the world is to see a great man struggling against adversity." },
+{id: 38, name: "Hamlet", quote:  "There is nothing either good or bad, but thinking makes it so." },
+{id: 39, name: "Macbeth", quote: "Come what come may, time and the hour runs through the roughest day." },
+{id: 40, name: "Ralph Waldo Emerson", quote: "Many eyes go through the meadow, but few see the flowers in it." },
+{id: 41, name: "Charles Bukowski", quote: "That was all a man needed: hope. It was a lack of hope that discouraged a man." }
 
 ]
 
@@ -45,4 +49,4 @@ const quoteData = [{id: 1, name: "Bruce Lee", quote: "The successful warrior is 
 
 // Sample Object Template
 
-// {id: 33, name: "Marcel Proust", quote: "The only paradise is paradise lost."" }
+// {id: 40, name: "Charles Bukowski", quote: "That was all a man needed: hope. It was a lack of hope that discouraged a man." }
