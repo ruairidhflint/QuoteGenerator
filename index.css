@@ -54,6 +54,12 @@ body {
     width: 900px;
     font-family: 'Baloo Bhai', cursive;
 }
+
+    @media (max-width: 500px){
+           body {
+               width: auto;
+           }
+        }
 .container {
     display : flex;
     flex-direction: column;
@@ -66,8 +72,10 @@ body {
     border-radius: 2rem;    
     margin: 8rem;
     background-color: white;
+    
 
 }
+
 
 
 .quote{
@@ -117,3 +125,21 @@ body {
     background-color: rgb(218, 218, 218);
     border-radius: 2rem;    
 } */
+
+@media (max-width: 500px){
+    .container{
+    flex-direction: column;
+    width: auto;
+    font-size:3rem;
+    border: 0px solid red;
+    }
+    .quote {
+        width: 100%;
+    }
+    .wrapper{
+        width: auto;
+        /* border: 1px solid blue; */
+    }
+
+
+}

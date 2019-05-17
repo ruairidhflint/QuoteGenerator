@@ -1,3 +1,5 @@
+
+
 const quoteData = [{id: 1, name: "Bruce Lee", quote: "The successful warrior is the average man, with laser-like focus."}, 
 {id : 2, name: "Lao Tzu", quote:"The journey of a thousand miles begins with one step"},
 {id: 3, name: "Aristotle", quote: "We are what we repeatedly do. Excellence, then, is not an act, but a habit."},
@@ -37,7 +39,10 @@ const quoteData = [{id: 1, name: "Bruce Lee", quote: "The successful warrior is 
 
 ]
 
-/* Sample object form
 
-{id: 33, name: "Marcel Proust", quote: "The only paradise is paradise lost."" }
-*/
+
+
+
+// Sample Object Template
+
+// {id: 33, name: "Marcel Proust", quote: "The only paradise is paradise lost."" }
